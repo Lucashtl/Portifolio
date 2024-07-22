@@ -2,11 +2,11 @@ import { Titulo as TituloEstilo } from './style'
 
 export type props = {
   children: string
-  fontsize?: number
+  fontSize?: number
 }
 
 const titulo = (props: props) => (
-  <TituloEstilo fontsize={props.fontsize}>{props.children}</TituloEstilo>
+  <TituloEstilo fontSize={props.fontSize}>{props.children}</TituloEstilo>
 )
 
 export default titulo

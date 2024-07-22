@@ -2,7 +2,7 @@ import EstiloGobal, { Containers } from './styles'
 import SideBar from './containers/sidebar'
 
 import Sobre from './containers/sobre'
-import Projetos from './containers/projeto'
+import Projetos from './containers/projetos'
 function App() {
   return (
     <>

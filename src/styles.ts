@@ -11,7 +11,7 @@ box-sizing: border-box;
 
 body{
 padding-top:80px;
-
+padding-bottom: 80px;
 @media (max-width: 768px){
 padding-top: 16px;
 }
@@ -29,10 +29,6 @@ export const Containers = styled.div`
   @media (max-width: 768px) {
     max-width: 80%;
     display: block;
-  }
-
-  img {
-    max-width: 100%;
   }
 `
 
